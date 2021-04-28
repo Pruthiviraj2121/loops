@@ -1,0 +1,10 @@
+package com.company;
+
+public class L2 {
+    public static void main(String[] args){
+        int[] x = {45,67,89,12,34};
+        for(int a:x){
+            System.out.println(a);
+        }
+    }
+}
