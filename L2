@@ -1,0 +1,30 @@
+package com.company;
+import java.util.Scanner;
+
+public class L1 {
+    public static void main(String[] args){
+        int choice;
+        int a=10;
+        int b=20;
+        System.out.println("enter your case :: 1/for add,2/for multi,3/for divide");
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your choice:");
+        choice = sc.nextInt();
+        switch(choice){
+            case 1 :
+                int x;
+                x = a + b;
+                System.out.println("the addition is"+ x);
+                break;
+            case 2 :
+                int y;
+                y = a*b;
+                System.out.println("the multiplication is"+ y);
+                break;
+            case 3 :
+                int z;
+                z = a%b;
+                System.out.println("the division is"+ z);
+        }
+    }
+}
